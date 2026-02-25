@@ -1,0 +1,13 @@
+Chemdoc77’s FastLED Glass Block Matrix
+Bill of Materials
+
+Glass Block  - Menard’s Mulia 8"W x 8"H x 3"D Clear Hollow Craft and Décor Glass Block Model Number: 79000-CR: 
+https://www.menards.com/main/doors-windows-millwork/windows/glass-blocks-glass-block-panels/glass-block-accessories/mulia-8w-x-8h-x-3d-clear-hollow-craft-and-dcor-glass-block/79000-cr/p-1462879481239-c-7686.htm
+
+Fire Pit Glass Stones – Onlyfire 10 pounds Fire Glass for Propane Gas Fire Pit, 1/2-Inch High Luster Fireplace Glass Rocks for Fire Pit Table, Crystal
+https://www.amazon.com/onlyfire-Natural-Propane-Fireplace-10-Pound/dp/B07VMQGFVR
+
+16X16 WS2812B Matrix – from AliExpress or Amazon
+
+Lolin D32 MCU – From AliExpress or Amazon ( for ESP32 equivalent)
+
