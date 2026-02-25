@@ -1,6 +1,23 @@
+/*
+
+FastLED Glass Block Matrix by Chemdoc77
+
+Based by code from different sources.
+See each tab for the sources.
+
+ License
+
+The code and specifically the animations that come with it are licenced under a Creative Commons Attribution License CC BY-NC-SA 4.0
+
+For non-commercial purposes you're welcome to use the code and animations in any way you like.
+
+In case you would like to use my code or animations in your commercial project or product please contact me and we'll find a fair licensing solution we're both happy with.
+
+*/
+
+
 #include <Arduino.h>
 #include <FastLED.h>
-
 
 
 // LED Configuration
@@ -8,7 +25,7 @@
 #define MATRIX_HEIGHT   16
 #define NUM_LEDS        (MATRIX_WIDTH * MATRIX_HEIGHT)
 #define LED_PIN     12
-#define BRIGHTNESS  200
+#define BRIGHTNESS  150
 #define LED_TYPE    WS2812B
 #define COLOR_ORDER GRB
 
