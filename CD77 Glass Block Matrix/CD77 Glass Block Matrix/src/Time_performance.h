@@ -53,14 +53,13 @@ void RestartPerformance()
 void Performance()
 {
  FROM(0,0,00.000) { threeDots.Update(); FastLED.show();}
- FROM(0,0,15.000) { paletteAnimation.setTargetPalette(CRGBPalette16(CRGB::Red)); paletteAnimation.Update(); FastLED.show(); }
- FROM(0,0,25.000) { paletteAnimation.setTargetPalette(CRGBPalette16(CRGB::Navy)); paletteAnimation.Update(); FastLED.show(); }
- FROM(0,0,35.000) { paletteAnimation.setTargetPalette(CRGBPalette16(CRGB::DarkGreen)); paletteAnimation.Update(); FastLED.show(); }
- FROM(0,0,45.000) { paletteAnimation.setTargetPalette(CRGBPalette16(CRGB::Yellow)); paletteAnimation.Update(); FastLED.show(); }
- FROM(0,0,55.000) {speed = 20; currentPalette = IceColors_p; inwardPalette();  FastLED.show();}
- FROM(0,1,05.000) {speed = 40; currentPalette = gb6_p; clockwisePalette();  FastLED.show();}
- FROM(0,1,15.000) {speed = 50; currentPalette = gb9_p;outwardPalette();  FastLED.show();}
- AT(0,1,25.000)   {RestartPerformance(); }
+FROM(0,0,20.000) { paletteAnimation.setTargetPalette(CRGBPalette16(CRGB::Red)); paletteAnimation.Update(); FastLED.show(); }
+FROM(0,0,32.000) { paletteAnimation.setTargetPalette(CRGBPalette16(CRGB::Navy)); paletteAnimation.Update(); FastLED.show(); }
+FROM(0,0,44.000) { paletteAnimation.setTargetPalette(CRGBPalette16(CRGB::DarkGreen)); paletteAnimation.Update(); FastLED.show(); }
+FROM(0,0,56.000) {speed = 20; currentPalette = IceColors_p; inwardPalette();  FastLED.show();}
+FROM(0,1,06.000) {speed = 40; currentPalette = gb6_p; clockwisePalette();  FastLED.show();}
+FROM(0,1,16.000) {speed = 50; currentPalette = gb9_p;outwardPalette();  FastLED.show();}
+AT(0,1,26.000)   {RestartPerformance(); }
    
 }
 #endif
