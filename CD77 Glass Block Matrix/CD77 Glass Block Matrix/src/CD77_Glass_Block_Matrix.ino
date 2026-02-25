@@ -25,7 +25,7 @@ In case you would like to use my code or animations in your commercial project o
 #define MATRIX_HEIGHT   16
 #define NUM_LEDS        (MATRIX_WIDTH * MATRIX_HEIGHT)
 #define LED_PIN     12
-#define BRIGHTNESS  225
+#define BRIGHTNESS  150
 #define LED_TYPE    WS2812B
 #define COLOR_ORDER GRB
 
