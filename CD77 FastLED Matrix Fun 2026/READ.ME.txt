@@ -1,0 +1,19 @@
+
+FastLED Matrix Fun – 2026
+By
+Chemdoc77
+The a sketch on a 16X16 WS2812b serpentine matrix with a Lolin D32 MCU and a 74AHCT125 - Quad Level-Shifter and a 5 volt power supply.  The sketch’s animations are designed to work on any matrix with the 8 or more even numbered columns and 8 or more even numbered rows. 
+It uses the multi-tasking and state machine concepts based on Bill Earl’s Adafruit multitasking articles for all of the animations so that each animation can be easily incorporated into a new sketch.  This also allows more than one animation to be run at the same time in the void loop().  
+Here are the links to Bill Earl’s articles on multi-tasking:
+https://learn.adafruit.com/multi-tasking-the-arduino-part-1
+https://learn.adafruit.com/multi-tasking-the-arduino-part-2
+https://learn.adafruit.com/multi-tasking-the-arduino-part-3
+The YouTube video for this sketch can be found here:
+Enjoy!
+Best Regards,
+Chemdoc77
+
+
+
+
+
