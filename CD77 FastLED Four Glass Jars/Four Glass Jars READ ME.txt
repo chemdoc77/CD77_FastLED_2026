@@ -1,0 +1,29 @@
+Four Glass Jars Read ME
+
+The project was made using four WS2812b 8x8 matrices with each matrix is inside one of four different one-pint mason jars which were filled with large size fire pit glass chips.  This project used a Lolin D32 MCU, a 74AHCT125 - Quad Level-Shifter and a 5-volt power supply. It uses the FastLED library.  The matrices were connected in a serial fashion with power injected at both ends. 
+
+Claude AI assisted me in creating the non-blocking delay state machine functions from my functions.  Claude AI also played an important role in fixing various problems with this sketch. 
+This video is located in my YouTube channel here:
+
+The sketch contains a large number of functions that were not included in the video.
+
+It should be very easy for anyone with the help of Claude AI or another AI to add more glass jar filled matrices.
+
+The instructions on how to make the FastLED four glass jars including the bill of materials for this project is located in the Github post for this project.  The Github post includes step by step instructions with pictures of the construction of each glass jar containing an 8X8 WS2812b matrix.
+
+License
+
+The code and specifically the animations that come with it are licenced under a Creative Commons Attribution License CC BY-NC-SA 4.0.  This also included the construction of each of the four glass jars with a matrix.
+
+For non-commercial purposes you're welcome to use the code and animations in any way you like.
+
+In case you would like to use my code or animations or glass jars with a matrix in your commercial project or product please contact me and we'll find a fair licensing solution we're both happy with.
+
+*/
+
+Enjoy! 
+
+Best Regards,
+Chemdoc77
+
+
