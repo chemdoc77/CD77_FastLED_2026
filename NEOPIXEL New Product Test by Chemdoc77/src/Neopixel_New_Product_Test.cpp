@@ -30,6 +30,7 @@ void setup() {
   fill_solid(leds, NUM_LEDS, CRGB::Black);
   FastLED.show();
  
+ 
 }
 void loop() {  
 
